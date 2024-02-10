@@ -1,0 +1,133 @@
+##########File#########
+retained_installers_com.foo.bar_Combined.csv
+
+################## INITIAL VALUES ##################
+###########Top 10 Rows###########
+       Date  ... Installer-to-30_days_retention_rate
+0  4/1/2019  ...                                 0.0
+1  4/1/2019  ...                                 0.5
+2  4/1/2019  ...                                 0.0
+3  4/1/2019  ...                                 0.0
+4  4/1/2019  ...                                 0.5
+5  4/1/2019  ...                                 1.0
+6  4/1/2019  ...                                 0.0
+7  4/1/2019  ...                                 0.0
+8  4/1/2019  ...                                 1.0
+9  4/1/2019  ...                                 0.0
+
+[10 rows x 14 columns]
+
+###########Data Shape###########
+(6417, 14)
+
+###########Data Description###########
+       Store_Listing_Visitors  ...  Installer-to-30_days_retention_rate
+count             6417.000000  ...                          6409.000000
+mean                 8.614929  ...                             0.123493
+std                 31.741925  ...                             0.298816
+min                  0.000000  ...                             0.000000
+25%                  1.000000  ...                             0.000000
+50%                  1.000000  ...                             0.000000
+75%                  2.000000  ...                             0.000000
+max                354.000000  ...                             1.000000
+
+[8 rows x 11 columns]
+
+###########Data Counts###########
+Date                                    6403
+Package_Name                            6417
+Country                                 6358
+Store_Listing_Visitors                  6417
+Installers                              6417
+Visitor-to-Installer_conversion_rate    6417
+Installers_retained_for_1_day           6417
+Installer-to-1_day_retention_rate       6417
+Installers_retained_for_7_days          6417
+Installer-to-7_days_retention_rate      6417
+Installers_retained_for_15_days         6417
+Installer-to-15_days_retention_rate     6417
+Installers_retained_for_30_days         6409
+Installer-to-30_days_retention_rate     6409
+dtype: int64
+
+Installers retained 1 day mean: 1.5217391304347827
+Installers retained 1 day mode: 0    0
+dtype: int64 
+
+Installers retained 7 days mean: 1.1915225183107372
+Installers retained 7 days mode: 0    0
+dtype: int64 
+
+Installers retained 15 days mean: 1.0296088514882344
+Installers retained 15 days mode: 0    0
+dtype: int64 
+
+Installers retained 30 days mean: 0.8651895771571227
+Installers retained 30 days mode: 0    0.0
+dtype: float64 
+
+################## CLEANED VALUES ##################
+###########Top 10 Rows###########
+       Date  ... Installer-to-30_days_retention_rate
+0  4/1/2019  ...                                 0.0
+1  4/1/2019  ...                                 0.5
+2  4/1/2019  ...                                 0.0
+3  4/1/2019  ...                                 0.0
+4  4/1/2019  ...                                 0.5
+5  4/1/2019  ...                                 1.0
+6  4/1/2019  ...                                 0.0
+7  4/1/2019  ...                                 0.0
+8  4/1/2019  ...                                 1.0
+9  4/1/2019  ...                                 0.0
+
+[10 rows x 14 columns]
+
+###########Data Shape###########
+(6417, 14)
+
+###########Data Description###########
+       Store_Listing_Visitors  ...  Installer-to-30_days_retention_rate
+count             6417.000000  ...                          6417.000000
+mean                 8.614929  ...                             0.123339
+std                 31.741925  ...                             0.298661
+min                  0.000000  ...                             0.000000
+25%                  1.000000  ...                             0.000000
+50%                  1.000000  ...                             0.000000
+75%                  2.000000  ...                             0.000000
+max                354.000000  ...                             1.000000
+
+[8 rows x 11 columns]
+
+###########Data Counts###########
+Date                                    6417
+Package_Name                            6417
+Country                                 6417
+Store_Listing_Visitors                  6417
+Installers                              6417
+Visitor-to-Installer_conversion_rate    6417
+Installers_retained_for_1_day           6417
+Installer-to-1_day_retention_rate       6417
+Installers_retained_for_7_days          6417
+Installer-to-7_days_retention_rate      6417
+Installers_retained_for_15_days         6417
+Installer-to-15_days_retention_rate     6417
+Installers_retained_for_30_days         6417
+Installer-to-30_days_retention_rate     6417
+dtype: int64
+
+Installers retained 1 day mean: 1.5217391304347827
+Installers retained 1 day mode: 0    0
+dtype: int64 
+
+Installers retained 7 days mean: 1.1915225183107372
+Installers retained 7 days mode: 0    0
+dtype: int64 
+
+Installers retained 15 days mean: 1.0296088514882344
+Installers retained 15 days mode: 0    0
+dtype: int64 
+
+Installers retained 30 days mean: 0.8641109552750507
+Installers retained 30 days mode: 0    0.0
+dtype: float64 
+

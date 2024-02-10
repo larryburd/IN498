@@ -1,0 +1,48 @@
+Decision Tree Accuracy with Training Data: (0.8942851570118978,)
+
+Decision Tree Accuracy with Test Data: (0.8689547581903276,)
+
+Random Forest Prediction: (array([0, 0, 0, ..., 0, 0, 1]),)
+
+Random Forest Accuracy: (0.8689547581903276,)
+
+Random Forest Prediction of Keeping 1 User 30 Days with 1 Install: (array([0]),)
+
+Random Forest Prediction of Keeping 1 User 30 Days with 2 Install: (array([1]),)
+
+Random Forest Prediction of Keeping 1 User 30 Days with 4 Install: (array([1]),)
+
+Absolute Errors for Random Forest Model: (5022    0
+4926    0
+1959    0
+894     1
+113     0
+       ..
+553     0
+818     0
+2957    0
+3576    1
+3726    1
+Name: Install_30, Length: 1282, dtype: int32,)
+
+Mean Absolute Error: (0.13,)
+
+Random Forest Probabilities X_test(array([3.04589002e-04, 3.04589002e-04, 3.04589002e-04, ...,
+       3.04589002e-04, 3.23034652e-01, 5.49965852e-01]),)
+
+ROC AUC for Random Forest: (0.9211627906976745,)
+
+Random Forest MAPE(5022      NaN
+4926      NaN
+1959      NaN
+894       inf
+113       NaN
+        ...  
+553       NaN
+818       NaN
+2957      NaN
+3576    100.0
+3726      inf
+Name: Install_30, Length: 1282, dtype: float64,)
+
+Random Forest Accuracy Percentage Using Error Percentage: (-inf,)
